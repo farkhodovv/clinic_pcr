@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paczients",
+  "info": {
+    "singularName": "paczient",
+    "pluralName": "paczients",
+    "displayName": "Пациенты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "date_birth": {
+      "type": "date",
+      "required": true
+    },
+    "passport": {
+      "type": "string",
+      "required": true
+    },
+    "date_tested": {
+      "type": "datetime",
+      "required": true
+    },
+    "result": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
